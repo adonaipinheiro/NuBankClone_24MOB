@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <info.androidhive.fontawesome.FontTextView
+                    android:id="@+id/user_button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/user_icon"
+                    android:gravity="center"
+                    android:text="@string/fa_user"
+                    android:textColor="#FFF"
+                    android:textSize="24sp"
+                    app:solid_icon="false" />
+
+
+                <info.androidhive.fontawesome.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:text="@string/fa_eye"
+                    android:textAlignment="textEnd"
+                    android:textColor="#FFF"
+                    android:textSize="24sp"
+                    app:solid_icon="false" />
+
+                <info.androidhive.fontawesome.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/fa_question_circle"
+                    android:textColor="#FFF"
+                    android:textSize="24sp"
+                    app:solid_icon="false" />
+
+                <info.androidhive.fontawesome.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/fa_envelope"
+                    android:textColor="#FFF"
+                    android:textSize="24sp"
+                    app:solid_icon="false" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Olá, Gabriela"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3000dp"
+                android:text="Olpa" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
